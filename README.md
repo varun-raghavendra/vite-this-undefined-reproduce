@@ -1,3 +1,9 @@
+# Reproduction steps
+
+1. `npm run build` && `npm run dev`
+2. Open developer tools in browser
+3. See error logs same as described in the GitHub issue
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
