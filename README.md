@@ -1,8 +1,14 @@
 # Reproduction steps
 
-1. `npm run build` && `npm run dev`
-2. Open developer tools in browser
-3. See error logs same as described in the GitHub issue
+1. Clone this package
+2. Install npm on your machine
+3. Install vite and tsc using `npm install vite tsc`
+4. If any dependency related errors persist, do `npm install <dependency>`
+5. Do `npm run build` && `npm run dev`
+6. Go to URL http://localhost:5173/
+7. Open developer tools in browser
+8. See error logs same as described in the GitHub issue
+9. See the error disappear when `PerpT` related code is removed from src/App.tsx
 
 # React + TypeScript + Vite
 
